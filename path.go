@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/goccy/go-yaml/ast"
-	"github.com/goccy/go-yaml/parser"
-	"github.com/goccy/go-yaml/printer"
+	"github.com/pgeiem//go-yaml/parser"
+	"github.com/pgeiem//go-yaml/printer"
+	"github.com/pgeiem/go-yaml/ast"
 )
 
 // PathString create Path from string
