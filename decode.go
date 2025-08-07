@@ -7,7 +7,6 @@ import (
 	"encoding/base64"
 	"fmt"
 	"io"
-	"maps"
 	"math"
 	"os"
 	"path/filepath"
@@ -16,6 +15,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	maps "golang.org/x/exp/maps"
 
 	"github.com/goccy/go-yaml/ast"
 	"github.com/goccy/go-yaml/internal/errors"

@@ -658,8 +658,8 @@ func toNumber(value string) (*NumberValue, error) {
 var timestampFormats = []string{
 	time.RFC3339Nano,
 	"2006-01-02t15:04:05.999999999Z07:00", // RFC3339Nano with lower-case "t".
-	time.DateTime,
-	time.DateOnly,
+	"2006-01-02 15:04:05",
+	"2006-01-02",
 
 	// Not in examples, but to preserve backward compatibility by quoting time values.
 	"15:4",
