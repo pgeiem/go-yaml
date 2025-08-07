@@ -14,9 +14,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/goccy/go-yaml"
-	"github.com/goccy/go-yaml/ast"
-	"github.com/goccy/go-yaml/parser"
+	"github.com/pgeiem/go-yaml"
+	"github.com/pgeiem/go-yaml/ast"
+	"github.com/pgeiem/go-yaml/parser"
 )
 
 var zero = 0

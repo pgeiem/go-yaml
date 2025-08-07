@@ -133,7 +133,7 @@ const ShareLink = (props: { setVisibility: React.Dispatch<React.SetStateAction<s
 const GitHubLink = () => {
   if (isXS()) {
     return (
-      <IconButton href="https://github.com/goccy/go-yaml">
+      <IconButton href="https://github.com/pgeiem/go-yaml">
         <GitHub sx={{ color: themeWhite }}></GitHub>
       </IconButton>
     )
@@ -148,7 +148,7 @@ const GitHubLink = () => {
       textTransform: 'none',
     }}
       startIcon={<GitHub sx={{ color: themeBlack }}></GitHub>}
-      href="https://github.com/goccy/go-yaml"
+      href="https://github.com/pgeiem/go-yaml"
     >
       Visit Our GitHub
     </Button>
